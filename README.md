@@ -1,3 +1,6 @@
-# My Awesome Book
+# Go tutorial for Pythoner
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+#### If you get tired with interpreter, this book will help you go to a world of compilable.
+
+
+
