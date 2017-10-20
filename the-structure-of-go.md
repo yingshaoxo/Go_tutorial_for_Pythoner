@@ -18,7 +18,7 @@ func main() {
 
 ##### As you can see, Go is a kind of combination of Python, C, JavaScript.
 
-1. `package` is like a further classification for python pakages.
+1. ~~`package` is like a further classification for python pakages.~~
 
 2. `func main() {}` is like C or C++ codes part structure without `;` to determine if a statement is finished.
 
