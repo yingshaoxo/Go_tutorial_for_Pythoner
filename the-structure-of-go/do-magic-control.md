@@ -4,7 +4,6 @@ package main
 
 import "fmt"
 
-
 func main() {
     i := 1
     for i <= 10 {
@@ -39,7 +38,6 @@ ___
 package main
 
 import "fmt"
-
 
 func main() {
     for i := 1; i <= 10; i++ {
