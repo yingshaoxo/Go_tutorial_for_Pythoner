@@ -26,7 +26,7 @@ It's much like python's flask package:
 `/` for index of website.
 
 `/about/` for about page.
-
+___
 
 There just one thing you should care about: `*`.
 
