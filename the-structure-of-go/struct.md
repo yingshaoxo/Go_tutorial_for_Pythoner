@@ -3,9 +3,7 @@ Golang's struct is just like C++'s struct.
 ```
 package main
 
-import ("fmt"
-        "reflect"
-)
+import "fmt"
 
 type box struct {
     length int16

@@ -3,7 +3,9 @@ I can't believe it when `sentdex` tell me that Golang doesn't have `class method
 But soon I know what's the big idea.
 ___
 
-#### Python Version
+### 1. Value Receiver
+
+##### Python Version
 ```
 package main
 
@@ -29,7 +31,7 @@ func main(){
 }
 ```
 
-#### Golang Version
+##### Golang Version
 ```
 package main
 
@@ -55,3 +57,6 @@ func main(){
 }
 
 ```
+___
+
+### 2. Pointer Receiver
