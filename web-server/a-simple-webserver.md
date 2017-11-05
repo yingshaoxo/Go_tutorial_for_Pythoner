@@ -30,4 +30,4 @@ ___
 
 There just one thing you should care about: `*`.
 
-It reads value from a point address (`http.Request`).
+It reads value from a pointer address (`http.Request`).
