@@ -8,6 +8,7 @@
   * [Struct](the-structure-of-go/struct.md)
   * [Methods](the-structure-of-go/methods.md)
   * [Break loop and enumerate](the-structure-of-go/break-loop-and-enumerate.md)
+  * [Map](the-structure-of-go/map.md)
 * [Features of Go](features-of-go.md)
 * [Web Server](web-server.md)
   * [A simple webserver](web-server/a-simple-webserver.md)
