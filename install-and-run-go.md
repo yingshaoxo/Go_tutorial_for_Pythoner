@@ -1,14 +1,19 @@
-#### Installation: 
-
-https://medium.com/@patdhlk/how-to-install-go-1-8-on-ubuntu-16-04-710967aa53c9
-
-
-
-
+#### Installation:
+1. update
+```
+sudo apt-get update
+sudo apt-get -y upgrade
+```
+2. install
+```
+sudo curl -O https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
+sudo tar -xvf go1.9.linux-amd64.tar.gz
+sudo mv go /usr/local
+echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.profile
+source ~/.profile
+```
 
 #### Run:
 
 `go run hello.go`
-
-
 
