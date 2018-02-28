@@ -24,6 +24,6 @@ func main() {
 `go run test.go`
 
 ```
-	-p="8100": port to serve on
-	-d=".":    the directory of static files to host
+-p="8100" # port to serve on
+-d="." # the directory of static files to host
 ```
