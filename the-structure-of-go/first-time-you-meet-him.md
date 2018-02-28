@@ -19,9 +19,9 @@ func main() {
 
 1. ~~`package`, have no idea yet.~~
 
-2. `func main() {}` is like C or C++ codes part structure without `;` to determine if a statement is finished.
+2. `func main() {}` is like C or C++ codes part structure, which without `;` to determine if a statement is finished.
 
-3. `var x string` is like JavaScript for assign a variable.
+3. `var x string` is like JavaScript for define a variable.
 
 4. `y := "world"` is like Python, which compiler will know the variable type without you say.
     `fmt.Println()` is like Python's `print()`, and revealed the relationship of `Class` and `Function`.  
