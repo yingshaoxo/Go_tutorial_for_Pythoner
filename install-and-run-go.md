@@ -1,10 +1,10 @@
 #### Installation:
-1. update
+
 ```
 sudo apt-get update
 sudo apt-get -y upgrade
 ```
-2. install
+
 ```
 sudo curl -O https://storage.googleapis.com/golang/go1.9.linux-amd64.tar.gz
 sudo tar -xvf go1.9.linux-amd64.tar.gz
