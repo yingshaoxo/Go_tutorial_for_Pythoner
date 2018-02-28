@@ -11,5 +11,6 @@
   * [Map](the-structure-of-go/map.md)
 * [Features of Go](features-of-go.md)
 * [Web Server](web-server.md)
+  * [Serving static files](web-server/serving-static-files.md)
   * [A simple webserver](web-server/a-simple-webserver.md)
 
