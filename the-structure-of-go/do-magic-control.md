@@ -52,7 +52,7 @@ You can understand it in this way: for `i == 1`, if `i <= 10`, running following
 (for == 对于、基于)
 ___
 
-##### We haven't finish yet. The most import control method is `if` and `else`.
+##### We haven't finish yet. The most important control method is `if` and `else`.
 
 ##### It's definitely inherited from `C++`, I can feel it.
 
