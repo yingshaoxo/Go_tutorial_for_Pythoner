@@ -4,6 +4,7 @@
 * [Install and Run Go](install-and-run-go.md)
 * [The structure of Go](the-structure-of-go.md)
   * [First time you meet him](the-structure-of-go/first-time-you-meet-him.md)
+  * [Functions](the-structure-of-go/functions.md)
   * [Do magic control](the-structure-of-go/do-magic-control.md)
   * [Struct](the-structure-of-go/struct.md)
   * [Methods](the-structure-of-go/methods.md)
