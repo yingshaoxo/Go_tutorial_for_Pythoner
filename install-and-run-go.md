@@ -1,5 +1,8 @@
 #### Installation:
-
+```
+sudo apt install golang
+```
+or
 ```
 sudo apt-get update
 sudo apt-get -y upgrade
