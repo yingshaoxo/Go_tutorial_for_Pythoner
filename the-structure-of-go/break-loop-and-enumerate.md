@@ -29,6 +29,8 @@ func traverse_an_array(sentences []string) {
     for index, sentence := range sentences {
         fmt.Printf("\n%d. %s.\n", index, strings.Trim(sentence, ". "))
     }
+    // if you don't want to use index, use:
+    // for _, sentence := range sentences
 }
 
 func main() {
