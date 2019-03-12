@@ -12,6 +12,7 @@
   * [Dict \(Map\)](the-structure-of-go/map.md)
   * [Struct](the-structure-of-go/struct.md)
   * [Class \(Methods\)](the-structure-of-go/methods.md)
+  * [Packages](the-structure-of-go/packages.md)
 * [Features of Go](features-of-go.md)
 * [Web Server](web-server.md)
   * [Serving static files](web-server/serving-static-files.md)
