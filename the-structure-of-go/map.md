@@ -8,14 +8,14 @@ package main
 import "fmt"
 
 func iterate_map_A(A map[string]string) {
-    for idx, value := range A {
-        fmt.Println(idx, value)
+    for key, value := range A {
+        fmt.Println(key, value)
     }
 }
 
 func iterate_map_B(A map[string]int) {
-    for idx, value := range A {
-        fmt.Println(idx, value)
+    for key, value := range A {
+        fmt.Println(key, value)
     }
 }
 
@@ -46,4 +46,34 @@ print('\n')
 
 dict_B = dict({"me": 100, "you": 0})
 iterate_dict(dict_B)
+```
+
+___
+
+#### What if we want a type of `dict-list` combination?
+
+```
+package main
+
+import (
+    "fmt"
+)
+
+var dict_list = make(map[int][]string)
+
+func main() {
+    dict_list[1] = []string{"Everyone", "one"}
+    dict_list[2] = []string{"can", "be"}
+    dict_list[3] = []string{"its", "own", "god."}
+
+    fmt.Println(dict_list)
+
+    for key, list := range dict_list {
+    	for _, word := range list {
+    		if key <= 3 {
+    			fmt.Printf("%s ", word)
+    		}
+    	}
+    }
+}
 ```

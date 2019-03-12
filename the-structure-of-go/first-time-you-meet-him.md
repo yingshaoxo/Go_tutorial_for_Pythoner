@@ -14,6 +14,7 @@ func main() {
     var sentence string = x + ", " + y + "!"
 
     fmt.Println(sentence)
+    fmt.Printf("%s, %s!", y, x)
 }
 ```
 
