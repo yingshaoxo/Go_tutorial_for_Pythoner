@@ -17,4 +17,5 @@
 * [Web Server](web-server.md)
   * [Serving static files](web-server/serving-static-files.md)
   * [A simple webserver](web-server/a-simple-webserver.md)
+* [Go for Android](go-for-android.md)
 
