@@ -51,6 +51,17 @@ ___
 ```
 import greeting.Greeting
 
+var words = Greeting.sayHi()
+Toast.makeText(applicationContext, words, Toast.LENGTH_LONG).show()
+```
+
+___
+
+##### The real codes
+
+```
+import greeting.Greeting
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
