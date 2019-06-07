@@ -8,4 +8,4 @@ The author: **yingshaoxo**
 
 E-Mail: yingshaoxo@gmail.com
 
-The original address: https://yingshaoxo.gitbook.io/go-tutorial-for-pythoner
+The original address: https://github.com/yingshaoxo/Go_tutorial_for_Pythoner
