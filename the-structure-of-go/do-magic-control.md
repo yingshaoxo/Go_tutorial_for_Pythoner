@@ -1,5 +1,8 @@
-#### Codes:
-```
+# Logic Control
+
+## Codes:
+
+```text
 package main
 
 import "fmt"
@@ -13,8 +16,9 @@ func main() {
 }
 ```
 
-#### Output:
-```
+## Output:
+
+```text
 1
 2
 3
@@ -27,14 +31,13 @@ func main() {
 10
 ```
 
-#### Conclusion:
-The `for` in there, is like Python's `while`.
-In other words, is just like `if`, for example: `if i <= 10: do things`.
+## Conclusion:
 
-___
+The `for` in there, is like Python's `while`. In other words, is just like `if`, for example: `if i <= 10: do things`.
 
-#### Codes:
-```
+## Codes:
+
+```text
 package main
 
 import "fmt"
@@ -46,17 +49,15 @@ func main() {
 }
 ```
 
-#### Conclusion:
-This structure is picked up from C++.
-You can understand it in this way: for `i == 1`, if `i <= 10`, running following part of codes, then `i = i + 1`.
-(for == 对于、基于)
-___
+## Conclusion:
 
-##### We haven't finish yet. The most important control method is `if` and `else`.
+This structure is picked up from C++. You can understand it in this way: for `i == 1`, if `i <= 10`, running following part of codes, then `i = i + 1`. \(for == 对于、基于\)
 
-##### It's definitely inherited from `C++`, I can feel it.
+### We haven't finish yet. The most important control method is `if` and `else`.
 
-```
+### It's definitely inherited from `C++`, I can feel it.
+
+```text
 package main
 
 import "fmt"
@@ -75,4 +76,6 @@ func main() {
     }
 }
 ```
-##### I must say, compare to Python, you have to write more codes to reach a same goal.
+
+### I must say, compare to Python, you have to write more codes to reach a same goal.
+

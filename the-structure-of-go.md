@@ -1,1 +1,0 @@
-#### Go is a modern programming language, that means it has the chance to absorb other older language's characteristics.

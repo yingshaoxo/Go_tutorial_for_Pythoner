@@ -1,4 +1,6 @@
-```
+# A simple webserver
+
+```text
 package main
 
 import ("fmt"
@@ -26,8 +28,8 @@ It's much like python's flask package:
 `/` for index of website.
 
 `/about/` for about page.
-___
 
 There just one thing you should care about: `*`.
 
-It reads value from a pointer address (`http.Request`).
+It reads value from a pointer address \(`http.Request`\).
+

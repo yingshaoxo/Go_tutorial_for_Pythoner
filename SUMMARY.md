@@ -1,8 +1,8 @@
-# Summary
+# Table of contents
 
 * [Introduction](README.md)
 * [Install and Run Go](install-and-run-go.md)
-* [The structure of Go](the-structure-of-go.md)
+* [The structure of Go](the-structure-of-go/README.md)
   * [First time you meet him](the-structure-of-go/first-time-you-meet-him.md)
   * [Functions](the-structure-of-go/functions.md)
   * [Return multiple results](the-structure-of-go/return-multiple-results.md)
@@ -14,7 +14,7 @@
   * [Class \(Methods\)](the-structure-of-go/methods.md)
   * [Packages](the-structure-of-go/packages.md)
 * [Features of Go](features-of-go.md)
-* [Web Server](web-server.md)
+* [Web Server](web-server/README.md)
   * [Serving static files](web-server/serving-static-files.md)
   * [A simple webserver](web-server/a-simple-webserver.md)
 * [Go for Android](go-for-android.md)

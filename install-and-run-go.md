@@ -1,9 +1,14 @@
-#### Installation:
-```
+# Install and Run Go
+
+## Installation:
+
+```text
 sudo apt install golang
 ```
+
 or
-```
+
+```text
 sudo apt-get update
 sudo apt-get -y upgrade
 
@@ -15,7 +20,7 @@ echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.profile
 source ~/.profile
 ```
 
-#### Run:
+## Run:
 
 `go run hello.go`
 

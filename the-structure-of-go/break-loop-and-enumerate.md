@@ -1,5 +1,8 @@
-#### Break a loop
-```
+# Break loop and enumerate
+
+## Break a loop
+
+```text
 package main
 
 import "fmt"
@@ -16,8 +19,9 @@ func main() {
 }
 ```
 
-#### Enumerate
-```
+## Enumerate
+
+```text
 package main
 
 import (
@@ -39,3 +43,4 @@ func main() {
     traverse_an_array(sentences)
 }
 ```
+

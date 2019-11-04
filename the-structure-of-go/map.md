@@ -1,8 +1,10 @@
-#### The map, exactly, is Python's dictionary.
-___
+# Dict \(Map\)
 
-##### Golang version
-```
+## The map, exactly, is Python's dictionary.
+
+### Golang version
+
+```text
 package main
 
 import "fmt"
@@ -32,9 +34,9 @@ func main() {
 }
 ```
 
+### Python version
 
-##### Python version
-```
+```text
 def iterate_dict(a_dict):
     for index, value in a_dict.items():
         print(index, value)
@@ -48,11 +50,9 @@ dict_B = dict({"me": 100, "you": 0})
 iterate_dict(dict_B)
 ```
 
-___
+## What if we want a type of `dict-list` combination?
 
-#### What if we want a type of `dict-list` combination?
-
-```
+```text
 package main
 
 import (
@@ -69,11 +69,12 @@ func main() {
     fmt.Println(dict_list)
 
     for key, list := range dict_list {
-    	for _, word := range list {
-    		if key <= 3 {
-    			fmt.Printf("%s ", word)
-    		}
-    	}
+        for _, word := range list {
+            if key <= 3 {
+                fmt.Printf("%s ", word)
+            }
+        }
     }
 }
 ```
+

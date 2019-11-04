@@ -1,6 +1,8 @@
+# Struct
+
 Golang's struct is just like C++'s struct.
 
-```
+```text
 package main
 
 import "fmt"
@@ -19,3 +21,4 @@ func main(){
     fmt.Println(another_box.width)
 }
 ```
+

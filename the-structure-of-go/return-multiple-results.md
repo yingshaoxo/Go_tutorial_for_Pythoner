@@ -1,5 +1,8 @@
-#### Codes
-```
+# Return multiple results
+
+## Codes
+
+```text
 package main
 
 import "fmt"
@@ -14,7 +17,9 @@ func main() {
 }
 ```
 
-#### Results
-```
+## Results
+
+```text
 world hello
 ```
+

@@ -1,16 +1,18 @@
+# Class \(Methods\)
+
 I can't believe when `sentdex` tell me that Golang doesn't have `class methods`.
 
 But soon I know what's the big idea under the mystery.
-___
 
-##### Python Version
-```
+## Python Version
+
+```text
 class box():
     def __init__(self, length, width, hight):
         self.length = length
         self.width = width
         self.hight = hight
-    
+
     def get_volume(self):
         return self.length * self.width * self.hight
 
@@ -20,8 +22,9 @@ print('The volume of box_a is', box_a.get_volume())
 print('The volume of box_b is', box_b.get_volume())
 ```
 
-##### Golang Version
-```
+## Golang Version
+
+```text
 package main
 
 import "fmt"
@@ -44,16 +47,13 @@ func main(){
     fmt.Println("The volume of box_a is", box_a.get_volume())
     fmt.Println("The volume of box_b is", box_b.get_volume())
 }
-
 ```
 
 This is the basic way for class method.
 
-___
-
 You can also pass pointer to class function:
 
-```
+```text
 package main
 
 import "fmt"
@@ -74,3 +74,4 @@ func main(){
     fmt.Println("The volume of box_a is", box_a.get_volume())
 }
 ```
+

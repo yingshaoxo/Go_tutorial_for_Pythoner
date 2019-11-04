@@ -1,5 +1,8 @@
-#### Codes:
-```
+# Functions
+
+## Codes:
+
+```text
 package main
 
 import "fmt"
@@ -18,8 +21,10 @@ func main() {
 }
 ```
 
-#### Output:
-```
+## Output:
+
+```text
 5
 6
 ```
+
