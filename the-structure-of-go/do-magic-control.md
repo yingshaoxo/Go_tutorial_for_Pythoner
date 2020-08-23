@@ -53,7 +53,7 @@ func main() {
 
 This structure is picked up from C++. You can understand it in this way: for `i == 1`, if `i <= 10`, running following part of codes, then `i = i + 1`. \(for == 对于、基于\)
 
-### We haven't finish yet. The most important control method is `if` and `else`.
+### We haven't finished yet. The most important control method is `if` and `else`.
 
 ### It's definitely inherited from `C++`, I can feel it.
 
@@ -77,5 +77,5 @@ func main() {
 }
 ```
 
-### I must say, compare to Python, you have to write more codes to reach a same goal.
+### I must say, compare to Python, you have to write more codes to reach the same goal.
 
