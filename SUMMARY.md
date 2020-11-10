@@ -14,6 +14,7 @@
   * [Class \(Methods\)](the-structure-of-go/methods.md)
   * [Packages](the-structure-of-go/packages.md)
 * [Features of Go](features-of-go.md)
+* [Go modules](go-modules.md)
 * [Web Server](web-server/README.md)
   * [Serving static files](web-server/serving-static-files.md)
   * [A simple webserver](web-server/a-simple-webserver.md)
