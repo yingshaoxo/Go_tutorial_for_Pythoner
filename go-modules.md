@@ -45,7 +45,7 @@ func main() {
 
 	const line_space = 1.5
 
-	const text = "yingshaoxo is the best person in this world! \n no one can default him!"
+	const text = "yingshaoxo is the best person in this world! \n no one can defeat him!"
 
 	w, h := dc.MeasureMultilineString(text, line_space)
 	log.Printf("w%f, h%f\n", w, h)
