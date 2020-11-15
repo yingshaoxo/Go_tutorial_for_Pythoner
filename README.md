@@ -6,5 +6,5 @@ The author: **yingshaoxo**
 
 E-Mail: yingshaoxo@gmail.com
 
-The original address: [https://github.com/yingshaoxo/Go\_tutorial\_for\_Pythoner](https://github.com/yingshaoxo/Go_tutorial_for_Pythoner)
+The original address: [https://github.com/yingshaoxo/Go\_tutorial\_for\_Pythoner](https://yingshaoxo.gitbooks.io/go-tutorial-for-pythoner)
 
