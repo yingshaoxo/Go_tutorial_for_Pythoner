@@ -1,6 +1,6 @@
 # First time you meet him
 
-```text
+```go
 package main
 
 import (

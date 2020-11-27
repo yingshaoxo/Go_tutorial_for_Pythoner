@@ -6,7 +6,7 @@ But soon I know what's the big idea under the mystery.
 
 ## Python Version
 
-```text
+```python
 class box():
     def __init__(self, length, width, hight):
         self.length = length
@@ -24,7 +24,7 @@ print('The volume of box_b is', box_b.get_volume())
 
 ## Golang Version
 
-```text
+```go
 package main
 
 import "fmt"
@@ -53,7 +53,7 @@ This is the basic way for class method.
 
 You can also pass pointer to class function:
 
-```text
+```go
 package main
 
 import "fmt"

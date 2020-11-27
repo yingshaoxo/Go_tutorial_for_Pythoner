@@ -2,7 +2,7 @@
 
 Golang's struct is just like C++'s struct.
 
-```text
+```go
 package main
 
 import "fmt"

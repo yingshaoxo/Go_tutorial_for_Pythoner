@@ -4,7 +4,7 @@
 
 ### Golang version
 
-```text
+```go
 package main
 
 import "fmt"

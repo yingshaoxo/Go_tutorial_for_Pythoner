@@ -19,7 +19,7 @@ src
 └── main.go
 ```
 
-```text
+```go
 //a_go_file.go
 package hi
 
@@ -34,7 +34,7 @@ func Say_hello() {
 }
 ```
 
-```text
+```go
 //main.go
 package main
 

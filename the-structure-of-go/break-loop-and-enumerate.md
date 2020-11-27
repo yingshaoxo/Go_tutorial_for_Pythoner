@@ -2,7 +2,7 @@
 
 ## Break a loop
 
-```text
+```go
 package main
 
 import "fmt"

@@ -1,28 +1,52 @@
 # List \(Array or Slice\)
 
-```text
+```go
 package main
 
 import (
-    "fmt"
-    "strings"
+	"fmt"
+	"strings"
 )
 
-var words = []string{}
+func main() {
+	sentence := "I love you guys!"
+
+	words := strings.Split(sentence, " ")
+	fmt.Printf("%#v\n", words)
+
+	for index, word := range words {
+		fmt.Printf("%d. %s\n", index, word)
+	}
+
+	for _, word := range words {
+		fmt.Printf("%s ", word)
+	}
+}
+```
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+var nums = make([]int, 0) //this is a slice, it's a dynamic array
 
 func main() {
-    sentence := "I love you guys!"
+	fmt.Printf("%#v\n", nums)
 
-    words = strings.Split(sentence, " ")
-    fmt.Printf("%#v\n", words)
+	nums = append(nums, 1)
+	nums = append(nums, 9)
+	nums = append(nums, 9)
+	nums = append(nums, 8)
 
-    for index, word := range words {
-        fmt.Printf("%d. %s\n", index, word)
-    }
+	fmt.Printf("%#v\n", nums)
 
-    for _, word := range words {
-        fmt.Printf("%s ", word)
-    }
+	nums[len(nums)-1] = 0
+	nums = nums[:len(nums)-1]
+
+	fmt.Printf("%#v\n", nums)
 }
 ```
 

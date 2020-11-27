@@ -2,7 +2,7 @@
 
 ## Codes:
 
-```text
+```go
 package main
 
 import "fmt"
