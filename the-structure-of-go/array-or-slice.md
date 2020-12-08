@@ -31,7 +31,8 @@ import (
 	"fmt"
 )
 
-var nums = make([]int, 0) //this is a slice, it's a dynamic array
+//var nums = make([]int, 0) //this is a slice, it's a dynamic array
+var nums []int
 
 func main() {
 	fmt.Printf("%#v\n", nums)
