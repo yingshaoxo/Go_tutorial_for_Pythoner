@@ -32,6 +32,7 @@ import (
 )
 
 //var nums = make([]int, 0) //this is a slice, it's a dynamic array
+//you want to say it in this way: make a list of integer that has 0 element at the beginning
 var nums []int
 
 func main() {

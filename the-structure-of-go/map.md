@@ -22,7 +22,7 @@ func iterate_map_B(A map[string]int) {
 }
 
 func main() {
-    mapA := make(map[string]string)
+    mapA := make(map[string]string) // make a map where the key is string, the value is also a string
     mapA["anyone"] = "lacks of patience" 
     mapA["that's"] = "bad" 
     iterate_map_A(mapA)
