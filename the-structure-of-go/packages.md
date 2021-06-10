@@ -1,5 +1,13 @@
 # Packages
 
+## Example
+
+[https://yingshaoxo.blogspot.com/2021/06/how-to-create-package-with-golang.html](https://yingshaoxo.blogspot.com/2021/06/how-to-create-package-with-golang.html)
+
+```bash
+go env -w  GOPROXY=https://goproxy.io
+```
+
 Like `Python`, sometimes, you want to separate your codes to different files.
 
 So it can be organized.
