@@ -8,3 +8,5 @@ E-Mail: yingshaoxo@gmail.com
 
 The original address: [https://github.com/yingshaoxo/Go\_tutorial\_for\_Pythoner](https://yingshaoxo.gitbooks.io/go-tutorial-for-pythoner)
 
+My youtube channel: [https://www.youtube.com/channel/UCbT9GDmkqf555ATReJor6ag](https://www.youtube.com/channel/UCbT9GDmkqf555ATReJor6ag)
+
