@@ -21,6 +21,11 @@ func main() {
 	for _, word := range words {
 		fmt.Printf("%s ", word)
 	}
+	
+	new_words := [...]string{"Do", "you", "love", "me?"}
+	for _, word := range new_words[:] {
+			fmt.Printf("%s ", word)
+	}
 }
 ```
 
