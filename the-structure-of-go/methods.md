@@ -15,6 +15,9 @@ class box():
 
     def get_volume(self):
         return self.length * self.width * self.hight
+    
+    def change_length(self):
+        self.length = length // 2
 
 box_a = box(3, 2, 1)
 box_b = box(4, 2, 2)
@@ -36,8 +39,12 @@ type box struct {
     hight int16
 }
 
-func (b box) get_volume() int16 {
+func (b *box) get_volume() int16 {
     return b.length * b.width * b.hight
+}
+
+func (b *box) change_length() {
+    b.length = b.length / 2
 }
 
 func main(){

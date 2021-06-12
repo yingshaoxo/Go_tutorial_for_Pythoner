@@ -21,7 +21,7 @@ func main() {
 
 ## Enumerate
 
-```text
+```go
 package main
 
 import (
